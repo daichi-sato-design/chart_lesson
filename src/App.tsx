@@ -4,6 +4,7 @@ import './App.css'
 import LinePlot from './components/LinePlot'
 import PiePlot from './components/PiePlot'
 import BarPlot from './components/BarPlot'
+import RaderPlot from './components/RaderPlot'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <LinePlot />
         <PiePlot />
         <BarPlot />
+        <RaderPlot />
       </div>
     </div>
   )
