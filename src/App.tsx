@@ -15,6 +15,13 @@ function App() {
   return (
     <div className="App">
       <div className="App__wrap">
+        {/* Chart.js */}
+        <LinePlot />
+        <PiePlot />
+        <BarPlot />
+        <RaderPlot />
+        <BubblePlot />
+        {/* MaterialUI */}
         <MaterialUI />
       </div>
     </div>
