@@ -9,17 +9,17 @@ const data = {
       backgroundColor: '#008080',
       borderColor: '#7fffd4',
       pointBorderWidth: 10,
-      data: [5,6,9,15,30,40,80],
-    }
-  ]
-};
+      data: [5, 6, 9, 15, 30, 40, 80],
+    },
+  ],
+}
 
-const LinePlot:React.FC = () => {
+const LinePlot: React.FC = () => {
   return (
     <div>
-        <Line data={data} />
+      <Line data={data} />
     </div>
   )
 }
 
-export default LinePlot;
+export default LinePlot
